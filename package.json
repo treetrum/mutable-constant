@@ -12,6 +12,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
+    "check": "astro sync && tsc --noEmit",
     "preview": "astro preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
